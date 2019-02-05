@@ -25,6 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'aws-sdk-ec2', '~> 1'
   gem.add_dependency 'terminal-table', '~> 1.7'
   gem.add_dependency 'colorize', '~> 0.8'
+  gem.add_dependency 'sshkit', '~> 1.15'
 
   gem.add_development_dependency 'rubocop', '~> 0.53'
 end
